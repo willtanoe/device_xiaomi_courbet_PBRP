@@ -32,3 +32,5 @@ PRODUCT_NAME := omni_courbet
 PRODUCT_BRAND := Mi
 PRODUCT_MODEL := M2101K9AG
 PRODUCT_MANUFACTURER := Xiaomi
+
+BUILD_FINGERPRINT := Xiaomi/courbet_global/courbet:12/RKQ1.210614.002/V13.0.8.0.SKQMIXM:user/release-keys
