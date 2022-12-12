@@ -69,7 +69,7 @@ TW_OVERRIDE_SYSTEM_PROPS := \
     "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := ygherna A13
+TW_DEVICE_VERSION := willtanoe A13
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
