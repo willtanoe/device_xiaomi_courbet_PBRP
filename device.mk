@@ -64,10 +64,6 @@ RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/vendor.qti.hardware.vibrator.impl.so \
     $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/libqtivibratoreffect.so
 
-#Properties
-TW_OVERRIDE_SYSTEM_PROPS := \
-    "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
-
 # TWRP specific build flags
 TW_DEVICE_VERSION := willtanoe A13
 TW_THEME := portrait_hdpi
