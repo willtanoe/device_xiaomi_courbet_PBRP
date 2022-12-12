@@ -20,15 +20,15 @@ DEVICE_PATH := device/xiaomi/courbet
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/twrp/config/common.mk)
+# Inherit some common Omni stuff.
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/courbet/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := courbet
-PRODUCT_NAME := twrp_courbet
+PRODUCT_NAME := omni_courbet
 PRODUCT_BRAND := Mi
 PRODUCT_MODEL := M2101K9AG
 PRODUCT_MANUFACTURER := Xiaomi

@@ -15,6 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_courbet.mk
-
-COMMON_LUNCH_CHOICES := twrp_courbet-eng
+    $(LOCAL_DIR)/omni_courbet.mk
