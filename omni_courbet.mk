@@ -14,11 +14,9 @@
 # limitations under the License.
 #
 
-# Release name
-PRODUCT_RELEASE_NAME := courbet
-DEVICE_PATH := device/xiaomi/courbet
-
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
@@ -32,3 +30,7 @@ PRODUCT_NAME := omni_courbet
 PRODUCT_BRAND := Mi
 PRODUCT_MODEL := M2101K9AG
 PRODUCT_MANUFACTURER := Xiaomi
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="courbet_global-user 12 RKQ1.210614.002 V13.0.8.0.SKQMIXM release-keys"
+BUILD_FINGERPRINT := Xiaomi/courbet_global/courbet:12/RKQ1.210614.002/V13.0.8.0.SKQMIXM:user/release-keys

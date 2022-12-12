@@ -1,4 +1,5 @@
 ro.product.vendor.marketname=Mi 11 Lite 4G
+ro.build.fingerprint=Xiaomi/courbet_global/courbet:12/RKQ1.210614.002/V13.0.8.0.SKQMIXM:user/release-keys
 ro.product.board=courbet
 ro.board.platform=sm6150
 sys.usb.controller=a600000.dwc3
